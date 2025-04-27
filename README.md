@@ -10,5 +10,3 @@ Website cloning using HTML &amp; CSS.
 <a href = "https://www.rapido.bike/Home" target = "_blank">Rapido</a> <br>
 <a href = "https://ammaspastries.in/" target = "_blank">Amma's Pastries</a>   <br>
 <a href = "https://www.rayromanocontracting.com/#home1" target = "_blank">Ray Romano</a>
-
-
