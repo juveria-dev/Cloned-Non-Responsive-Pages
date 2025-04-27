@@ -1,0 +1,309 @@
+*{
+    padding: 0%;
+    margin:0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    height:80px;
+    width:100%;
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top:0px;
+    z-index: 2;
+}
+header>ul{
+    display: flex;
+    width:300px;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    font-size: 18px;
+}
+.container1{
+    width:50vw;
+}
+.container2>li:nth-child(1),.container2>li:nth-child(2){
+    font-size: 14px;
+    color:gray;
+    transition: color 0.8s;
+}
+.img{
+    height:600px;
+    width:100%;
+    position:relative;
+    top:80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://shop.spacex.com/cdn/shop/files/Banner_Starship_Flight_8_1800x.jpg?v=1741653250);
+}
+h1{
+    /* border:2px solid gray; */
+    margin-top:100px;
+    text-align: center;
+}
+.image{
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition:background-image 0.3s;
+}
+
+.container3{
+    position: relative;
+    margin-top:50px;
+    
+}
+.container3>.c1{
+    position:absolute;
+    text-align: center;
+    width:350px;
+    padding-top:20px;
+}
+.container3>.c1>h4{
+    letter-spacing: 1px;
+    font-size: 12px;
+    padding:5px;
+}
+.main-cont{
+    display: grid;
+    width:90%;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(5,1fr);
+    row-gap: 70px;
+    column-gap: 2px;
+    justify-items: center;
+    align-items: center;
+    margin:auto;
+}
+
+
+#button>button,#cont-2>button{
+    padding:10px 40px;
+    background-color: black;
+    font-size: 24px;
+    color:white;
+    border:1px solid black;
+    margin:50px;
+}
+#button{
+    width:450px;
+    margin:auto;
+    text-align: center;
+}
+#button>button:hover,#cont-2>button:hover{
+    color:black;
+    background-color: #fff;
+    border:1px solid black;
+}
+
+footer{
+    height:250px;
+    background-color: black;
+    color:white;
+    display:flex;
+}
+footer>p{
+    display: flex;
+    align-items: flex-end;
+    padding:50px;
+    color:gray;
+    transition: color 0.8s;
+}
+footer>p:hover,.container2>li:nth-child(1):hover,.container2>li:nth-child(2):hover{
+    color:white;
+    cursor:pointer;
+}
+footer>ul{
+    display:flex;
+    list-style: none;
+    width:500px;
+    justify-content: center;
+    align-items: flex-start;
+    padding:70px;
+}
+footer>ul>li{
+    padding:20px;
+    transition: color 0.8s;
+}
+footer>ul>li:hover{
+    color:gray;
+    cursor:pointer;
+}
+
+
+.image1{
+    background-image: url(./ImagesSpacex/star.png);
+}
+.image1:hover{
+    background-image: url(./ImagesSpacex/star2.png);
+}
+.image2{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/SpaceX_Starship_Flight_8_Patch_600x.png?v=1741304739);
+}
+.image3{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/Starlinktravelcoffeemug_White-S2_600x.png?v=1736558473);
+}
+.image3:hover{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/Starlinktravelcoffeemug_White-S1_600x.png?v=1736558473);
+}
+.image4{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/Starlinktumbler_Black-S1_600x.png?v=1736558202);
+}
+.image4:hover{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/Starlinktumbler_Black-S2_600x.png?v=1736558202);
+}
+.image5{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/STARLINK-BLANKET-TOTE_600x.png?v=1738085109);
+}
+.image5:hover{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/STARLINK-BLANKET-NAVY-1_600x.png?v=1738085109);
+}
+.image6{
+    background-image: url(./ImagesSpacex/cap1.png);
+}
+.image6:hover{
+    background-image: url(./ImagesSpacex/cap2.png);
+}
+.image7{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/SpaceX_Starship_Flight_7_Tshirt_Back_600x.png?v=1736547938);
+}
+.image7:hover{
+    background-image: url(./ImagesSpacex/star2.png);
+}
+.image8{
+    background-image: url(./ImagesSpacex/star3.png);
+}
+.image9{
+    background-image: url(https://shop.spacex.com/cdn/shop/products/HEATSHIELD_HOODIE_MENS_MEDIUM_BACK_600x.png?v=1689021321);
+}
+.image9:hover{
+    background-image: url(./ImagesSpacex/star4.png);
+}
+.image10{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/Unisex_SpaceX_ZipHoodie_Black_Front_600x.png?v=1738007459);
+}
+.image10:hover{
+    background-image: url(	https://shop.spacex.com/cdn/shop/files/Unisex_SpaceX_ZipHoodie_Black_Back_400x.png?v=1738007459);
+}
+.image11{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/Unisex_SpaceX_PulloverHoodie_MilitaryGreen_Front_600x.png?v=1738007546);
+}
+.image11:hover{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/Unisex_SpaceX_PulloverHoodie_MilitaryGreen_Back_600x.png?v=1738007546);
+}
+.image12{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/Unisex_SpaceX_CrewSweatshirt_Black_Front_600x.png?v=1738007606);
+}
+.image12:hover{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/Unisex_SpaceX_CrewSweatshirt_Black_Back_600x.png?v=1738007606);
+}
+.image13{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/Mechazilla_wall_decal_600x.png?v=1731537018);
+}
+.image13:hover{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/Mechazilla_Booster_S30_decal1_600x.png?v=1731628747);
+}
+.image14{
+    background-image: url(https://shop.spacex.com/cdn/shop/products/MicrosoftTeams-image_23_600x.png?v=1668472985);
+}
+.image14:hover{
+    background-image: url(https://shop.spacex.com/cdn/shop/products/Cap_XAdjustable_back_4_600x.png?v=1668473029);
+}
+.image15{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/Banana_for_scale_wall_decal_600x.png?v=1731536990);
+}
+.image15:hover{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/SPACEX_BANANAFORSCALE_DECAL_2_400x.jpg?v=1731605836);
+}
+.image16{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/SpaceX_Starship_Flight_6_Tshirt_Back_Black_600x.png?v=1731359541);
+}
+.image16:hover{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/SPACEX_STARSHIP_FLIGHT_6_T-SHIRT_BLACK_FRONT_400x.png?v=1731359547);
+}
+.image17{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/SpaceX_Starship_Flight_6_Patch_600x.png?v=1731349507);
+}
+.image18{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/SpaceX_Banana_Plush_Side_View_aa57cc67-bb15-4932-9662-45227bc9881b_600x.png?v=1731722566);
+}
+.image18:hover{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/SpaceXBananaZGI_2_48b84adb-cd0e-4a2f-a85b-dda0011ffb91_600x.jpg?v=1732059302);
+}
+.image19{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/Mens_F9_TSHIRT_Maroon_Front_600x.png?v=1731542151);
+}
+.image19:hover{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/Mens_F9_TSHIRT_Maroon_Back_600x.png?v=1731542151);
+}
+.image20{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/Mens_Dragon_T-Shirt-Navy_Front_1f8d4116-05f4-4b26-9137-ba93068c4570_900x.png?v=1731541568);
+}
+.image20:hover{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/Mens_Dragon_T-Shirt-Navy_Back_f0bb8662-7571-4d61-9fa4-ab47228fb5f4_600x.png?v=1731541567);
+}
+.image21{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/Mens_SpaceX_T-Shirt_Black_Front_600x.png?v=1731542708);
+}
+.image21:hover{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/Mens_SpaceX_T-Shirt_Black_Back_600x.png?v=1731542708);
+}
+.image22{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/Unisex_SpaceX_LST-Shirt_Black_Front_600x.png?v=1731546912);
+}
+.image22:hover{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/Unisex_SpaceX_LST-Shirt_Black_Back_400x.png?v=1731546913);
+}
+.image23{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/Mens_FH_TSHIRT_Maroon_Front_600x.png?v=1731542474);
+}
+.image23:hover{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/Mens_FH_TSHIRT_Maroon_BACK_600x.png?v=1731542474);
+}
+.image24{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/Unisex_Dragon_Hat_Navy_Front_600x.png?v=1731543245);
+}
+.image24:hover{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/Unisex_Dragon_Hat_Navy_Back_400x.png?v=1731543245);
+}
+.image25{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/XDadhatMilitaryGreenSide_600x.png?v=1695061522);
+}
+.image25:hover{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/XDadhatMilitaryGreenBack_79fb3815-cc0b-4fdb-ac76-432a15f2eb1a_800x.png?v=1725667643);
+}
+.image26{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/Unisex_Dragon_Hat_Maroon_Front_600x.png?v=1731543070);
+}
+.image26:hover{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/Unisex_Dragon_Hat_Maroon_Back_600x.png?v=1731543070);
+}
+.image27{
+    background-image: url(https://shop.spacex.com/cdn/shop/products/Cap_XAdjustable_front_600x.png?v=1623185349);
+}
+.image27:hover{
+    background-image: url(https://shop.spacex.com/cdn/shop/products/Cap_XAdjustable_back_400x.png?v=1623185349);
+}
+.image28{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/SpaceX_Starship_Flight5_Tshirt_Back_45ad79ee-9d16-4f75-9bf6-6ddf109419d9_600x.png?v=1722462944);
+}
+.image28:hover{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/STARSHIPFLIGHT5_UNISEX-BLACK-FRONT_400x.png?v=1722458969);
+}
+.image29{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/SpaceX_Starship_Flight_5_Patch_600x.png?v=1728506804);
+}
+.image30{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/DRAGON_SCALEMODEL_FRONT_600x.png?v=1724454450);
+}
+.image30:hover{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/SPACEX_DRAGON_SCALEMODEL_CLOSEUP2_600x.png?v=1724454451);
+}
