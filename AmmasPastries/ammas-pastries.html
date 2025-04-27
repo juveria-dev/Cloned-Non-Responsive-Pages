@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amma's Pastries - We Care For You</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./-ammas-pastries.css">
+    <link rel="icon" href="../HTML/Media_tags/Imagetags/amas-logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <img height= "50" width = "50" src="data:image/png;base64,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" alt="image">
+        </nav>
+        <ul>
+            <li>Cakes & Pastries</li>
+            <li>ThemeCakes</li>
+            <li>PhotoCakes</li>
+            <li>Snacks</li>
+            <li>Dessert</li>
+            <li>About Us</li>
+        </ul>
+    </header>
+    <button class = "icon"><i class="fa-solid fa-comment fa-3x"></i></button>
+    
+    <div class = "para1"><p>Home Delivery  Available 45 Mins to 1 Hour! 8.30 AM – 9.30 PM </p></div>
+    <div class = "images">
+        <div>
+            <img src="https://ammaspastries.in/wp-content/uploads/2023/08/Blueberry--scaled-300x300.webp" alt="img1">
+            <p>Red Velvet</p>
+        </div>
+        <div>
+            <img src="	https://ammaspastries.in/wp-content/uploads/2023/08/White-Forest-Heart-scaled-300x300.webp" alt="img2">
+            <p>Six Wonders</p>
+        </div>
+        <div>
+            <img src="https://ammaspastries.in/wp-content/uploads/2024/02/EK2A6663-300x300.webp" alt="img3">
+            <p>Brownies</p>
+        </div>
+        <div>
+            <img src="	https://ammaspastries.in/wp-content/uploads/2023/08/Galaxy-Round-scaled-300x300.webp" alt="img4">
+            <p>Pure Chocolate</p>
+        </div>
+        <div>
+            <img src="	https://ammaspastries.in/wp-content/uploads/2024/01/PhotoCake-Preview-300x300.webp" alt="img5">
+            <p>Photo Cake</p>
+        </div>
+        <div>
+            <img src="	https://ammaspastries.in/wp-content/uploads/2023/09/Vanilla-Butterscotch-Round-scaled-300x300.webp" alt="img6">
+            <p>Something Special</p>
+        </div>
+        <div>
+            <img src="https://ammaspastries.in/wp-content/uploads/2023/08/Dream-Cake-scaled-300x300.webp" alt="img7">
+            <p>Dream Cake</p>
+        </div>
+        <div>
+            <img src="	https://ammaspastries.in/wp-content/uploads/2024/01/Rasamalai-Round-150x150.webp" alt="img8">
+            <p>Rasmalai</p>
+        </div>
+    </div>
+    <div class = "container3">
+        <img src="	https://ammaspastries.in/wp-content/uploads/2025/03/web-1-1536x864.jpg" alt="img">
+        <div class="inner-container">
+            <img src="https://i.pinimg.com/474x/5e/b7/bb/5eb7bb190cf83074e57720cc9672eb4e.jpg" alt="img" height = "200" width = "200">
+            <div>
+                <p class = "para11">Photo Cake</p>
+                <p>Memories On Pastries</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <h1 class = "heading">What's New ?</h1>
+    <div class = "ul">
+        <ul class = "container4">
+            <li>Rich Plum Cake</li>
+            <li>Croissant</li>
+            <li>Rusk </li>
+            <li>Single Pcs</li>
+            <li>Desserts</li>
+        </ul>
+    </div>
+    <div class = "para1"><p>Home Delivery  Available 45 Mins to 1 Hour! 8.30 AM – 9.30 PM </p></div>
+    <div class = "images">
+        <div>
+            <img src="	https://ammaspastries.in/wp-content/uploads/2024/06/AL8177.webp" alt="img1">
+            <p>1st</p>
+        </div>
+        <div>
+            <img src="		https://ammaspastries.in/wp-content/uploads/2024/06/AL5605.webp" alt="img2">
+            <p>Six Months</p>
+        </div>
+        <div>
+            <img src= "https://ammaspastries.in/wp-content/uploads/2024/06/AL6024.webp" alt="img3">
+            <p>Budget Step</p>
+        </div>
+        <div>
+            <img src="		https://ammaspastries.in/wp-content/uploads/2024/06/AL5770.webp" alt="img4">
+            <p>Animal</p>
+        </div>
+        <div>
+            <img src="https://ammaspastries.in/wp-content/uploads/2024/08/5512.webp" alt="img5">
+            <p>Aqua</p>
+        </div>
+        <div>
+            <img src="	https://ammaspastries.in/wp-content/uploads/2023/09/Vanilla-Butterscotch-Round-scaled-300x300.webp" alt="img6">
+            <p>Baby Shark</p>
+        </div>
+        <div>
+            <img src="https://ammaspastries.in/wp-content/uploads/2024/08/5507.webp" alt="img7">
+            <p>Baby Shower</p>
+        </div>
+        <div>
+            <img src="	https://ammaspastries.in/wp-content/uploads/2024/01/Rasamalai-Round-150x150.webp" alt="img8">
+            <p>Barbie Doll</p>
+        </div>
+    </div>
+    <br>
+<div class="main-cont">
+
+
+    <div class="container5">
+        <div class="container51">
+            <img src="	https://ammaspastries.in/wp-content/uploads/2023/08/White-Forest-Heart-scaled-300x300.webp" alt="error" height = "200" width = "200">
+            <div class = "container52">
+                <p>Exotic Fruits</p>
+                <button>Fruits</button>
+                <p>"Whimsical 1st Birthday Cake."</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container5">
+        <div class="container51">
+            <img src="	https://ammaspastries.in/wp-content/uploads/2023/08/White-Forest-Heart-scaled-300x300.webp" alt="error" height = "200" width = "200">
+            <div class = "container52">
+                <p>Exotic Fruits</p>
+                <button>Fruits</button>
+                <p>"Whimsical 1st Birthday Cake."</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container5">
+        <div class="container51">
+            <img src="	https://ammaspastries.in/wp-content/uploads/2023/08/White-Forest-Heart-scaled-300x300.webp" alt="error" height = "200" width = "200">
+            <div class = "container52">
+                <p>Exotic Fruits</p>
+                <button>Fruits</button>
+                <p>"Whimsical 1st Birthday Cake."</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container5">
+        <div class="container51">
+            <img src="	https://ammaspastries.in/wp-content/uploads/2023/08/White-Forest-Heart-scaled-300x300.webp" alt="error" height = "200" width = "200">
+            <div class = "container52">
+                <p>Exotic Fruits</p>
+                <button>Fruits</button>
+                <p>"Whimsical 1st Birthday Cake."</p>
+            </div>
+        </div>
+    </div>
+    <div class="container5">
+        <div class="container51">
+            <img src="	https://ammaspastries.in/wp-content/uploads/2023/08/White-Forest-Heart-scaled-300x300.webp" alt="error" height = "200" width = "200">
+            <div class = "container52">
+                <p>Exotic Fruits</p>
+                <button>Fruits</button>
+                <p>"Whimsical 1st Birthday Cake."</p>
+            </div>
+        </div>
+    </div>
+    <div class="container5">
+        <div class="container51">
+            <img src="	https://ammaspastries.in/wp-content/uploads/2023/08/White-Forest-Heart-scaled-300x300.webp" alt="error" height = "200" width = "200">
+            <div class = "container52">
+                <p>Exotic Fruits</p>
+                <button>Fruits</button>
+                <p>"Whimsical 1st Birthday Cake."</p>
+            </div>
+        </div>
+    </div>
+    <div class="container5">
+        <div class="container51">
+            <img src="	https://ammaspastries.in/wp-content/uploads/2023/08/White-Forest-Heart-scaled-300x300.webp" alt="error" height = "200" width = "200">
+            <div class = "container52">
+                <p>Exotic Fruits</p>
+                <button>Fruits</button>
+                <p>"Whimsical 1st Birthday Cake."</p>
+            </div>
+        </div>
+    </div>
+    <div class="container5">
+        <div class="container51">
+            <img src="	https://ammaspastries.in/wp-content/uploads/2023/08/White-Forest-Heart-scaled-300x300.webp" alt="error" height = "200" width = "200">
+            <div class = "container52">
+                <p>Exotic Fruits</p>
+                <button>Fruits</button>
+                <p>"Whimsical 1st Birthday Cake."</p>
+            </div>
+        </div>
+    </div>
+    <div class="container5">
+        <div class="container51">
+            <img src="	https://ammaspastries.in/wp-content/uploads/2023/08/White-Forest-Heart-scaled-300x300.webp" alt="error" height = "200" width = "200">
+            <div class = "container52">
+                <p>Exotic Fruits</p>
+                <button>Fruits</button>
+                <p>"Whimsical 1st Birthday Cake."</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class = "images">
+    <div>
+        <img src="https://ammaspastries.in/wp-content/uploads/2023/08/Blueberry--scaled-300x300.webp" alt="img1">
+        <p>Red Velvet</p>
+    </div>
+    <div>
+        <img src="	https://ammaspastries.in/wp-content/uploads/2023/08/White-Forest-Heart-scaled-300x300.webp" alt="img2">
+        <p>Six Wonders</p>
+    </div>
+    <div>
+        <img src="https://ammaspastries.in/wp-content/uploads/2024/02/EK2A6663-300x300.webp" alt="img3">
+        <p>Brownies</p>
+    </div>
+    <div>
+        <img src="	https://ammaspastries.in/wp-content/uploads/2023/08/Galaxy-Round-scaled-300x300.webp" alt="img4">
+        <p>Pure Chocolate</p>
+    </div>
+    <div>
+        <img src="	https://ammaspastries.in/wp-content/uploads/2024/01/PhotoCake-Preview-300x300.webp" alt="img5">
+        <p>Photo Cake</p>
+    </div>
+    <div>
+        <img src="	https://ammaspastries.in/wp-content/uploads/2023/09/Vanilla-Butterscotch-Round-scaled-300x300.webp" alt="img6">
+        <p>Something Special</p>
+    </div>
+    <div>
+        <img src="https://ammaspastries.in/wp-content/uploads/2023/08/Dream-Cake-scaled-300x300.webp" alt="img7">
+        <p>Dream Cake</p>
+    </div>
+    <div>
+        <img src="	https://ammaspastries.in/wp-content/uploads/2024/01/Rasamalai-Round-150x150.webp" alt="img8">
+        <p>Rasmalai</p>
+    </div>
+</div>
+<div class="main-cont2 main-cont">
+
+
+    <div class="container5">
+        <div class="container51">
+            <img src="	https://ammaspastries.in/wp-content/uploads/2023/08/White-Forest-Heart-scaled-300x300.webp" alt="error" height = "200" width = "200">
+            <div class = "container52">
+                <p>Exotic Fruits</p>
+                <button>Fruits</button>
+                <p>"Whimsical 1st Birthday Cake."</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container5">
+        <div class="container51">
+            <img src="	https://ammaspastries.in/wp-content/uploads/2023/08/White-Forest-Heart-scaled-300x300.webp" alt="error" height = "200" width = "200">
+            <div class = "container52">
+                <p>Exotic Fruits</p>
+                <button>Fruits</button>
+                <p>"Whimsical 1st Birthday Cake."</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container5">
+        <div class="container51">
+            <img src="	https://ammaspastries.in/wp-content/uploads/2023/08/White-Forest-Heart-scaled-300x300.webp" alt="error" height = "200" width = "200">
+            <div class = "container52">
+                <p>Exotic Fruits</p>
+                <button>Fruits</button>
+                <p>"Whimsical 1st Birthday Cake."</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container5">
+        <div class="container51">
+            <img src="	https://ammaspastries.in/wp-content/uploads/2023/08/White-Forest-Heart-scaled-300x300.webp" alt="error" height = "200" width = "200">
+            <div class = "container52">
+                <p>Exotic Fruits</p>
+                <button>Fruits</button>
+                <p>"Whimsical 1st Birthday Cake."</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container5">
+        <div class="container51">
+            <img src="	https://ammaspastries.in/wp-content/uploads/2023/08/White-Forest-Heart-scaled-300x300.webp" alt="error" height = "200" width = "200">
+            <div class = "container52">
+                <p>Exotic Fruits</p>
+                <button>Fruits</button>
+                <p>"Whimsical 1st Birthday Cake."</p>
+            </div>
+        </div>
+    </div>
+<div class="container5">
+    <div class="container51">
+        <img src="	https://ammaspastries.in/wp-content/uploads/2023/08/White-Forest-Heart-scaled-300x300.webp" alt="error" height = "200" width = "200">
+        <div class = "container52">
+            <p>Exotic Fruits</p>
+            <button>Fruits</button>
+            <p>"Whimsical 1st Birthday Cake."</p>
+        </div>
+    </div>
+</div>
+<div class = "container7">
+    <div class="inner-container">
+        <img src="https://i.pinimg.com/474x/5e/b7/bb/5eb7bb190cf83074e57720cc9672eb4e.jpg" alt="img" height = "200" width = "200">
+        <div>
+            <p class = "para11">Photo Cake</p>
+            <p>Memories On Pastries</p>
+        </div>
+    </div>
+</div>
+</div><br>
+<div id = "last"><p>Copyright &copy; 2025 All Rights Reserved Powered by Amma's pastries</p></div>
+
+</body>
+</html>

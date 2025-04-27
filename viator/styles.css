@@ -1,0 +1,513 @@
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 8px;
+}
+header h1{
+    color:#008768;
+}
+header p{
+    font-size: 10px;
+}
+#discover{
+    border: none;
+    padding:5px;
+    font-weight: bold;
+    transition:box-shadow  border-radius 0.5s;
+}
+.main-cont{
+    display: flex;
+    width:300px;
+    align-items: center;
+    position:relative;
+    right:550px;
+    justify-content: space-around;
+}
+
+#discover:hover{
+    box-shadow: 0px 0px 4px gray;
+    border-radius: 50px;
+}
+
+nav{
+    display: flex;
+    width:150px;
+    justify-content: space-around;
+    align-items: center;
+    position:absolute;
+    right:150px;
+    height:70px;
+}
+nav>div,#line{
+    border:1px solid gray;
+    height:20px;
+    width:0px;
+}
+#user{
+    padding:10px;
+    border:1px solid gray;
+    border-radius: 50px;
+    color:gray;
+    width:50px;
+}
+#user:hover{
+    box-shadow: 1px 2px 5px gray;
+}
+.fa-user{
+    border-radius: 50%;
+    border:1px solid gray;
+    padding:5px;
+    background-color: gray;
+    color:white;
+}
+.img{
+    background-image: url(https://dynamic-media.tacdn.com/media/attractions-content--1x-1/14/c3/5f/aa.jpg?f=webp&w=1900&h=500&s=1);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+}
+.cont-2{
+    color:white;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top:80px;
+}
+.cont-2>h1{
+    font-size: 50px;
+}
+#line{
+    height:30px;
+}
+#img-cont{
+    width:550px;
+    margin:auto;
+    margin-top: 20px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 50px;
+    padding:15px;
+    position:relative;
+}
+/* #child1:hover{
+
+    border-radius: 50px;
+    border:2px solid gray;
+} */
+.fa-search{
+    background-color: #008768;
+    color:white;
+    padding:10px;
+    border-radius: 50%;
+}
+.fa-search:hover{
+    background-color: #065341;
+}
+.img>p:last-child{
+    background-color: black;
+    opacity:0.7;
+    padding:20px;
+    color:white;
+    position:absolute;
+    bottom:0px;
+    right:50px;
+}
+.img>p:last-child:hover{
+    text-decoration: underline;
+}
+#heading,#h1,#interests,#h11,#warm{
+    margin-top:50px;
+    text-align: center;
+}
+.main-cont2{
+    margin:50px;
+    display:flex;
+    justify-content: space-around;
+}
+.c{
+    text-align: center;
+    width:250px;
+    line-height: 24px;
+}
+.c>p{
+    font-size: 16px;   
+}
+.c>h5{
+    font-size: 20px;
+}
+.log-in{
+    background-color: #EFEEF7;
+    margin:auto;
+    width:900px;
+    height:160px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+    padding:40px;
+}
+.log-in a{
+    color:black;
+}
+.log-in button{
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    padding:10px 190px;
+    border-radius: 7px;
+    border:none;
+}
+.log-in button:hover{
+    background-color: rgba(0, 0, 0, 0.769);
+}
+.recommendations{
+    display:flex;
+    align-items: center;
+    margin-top:40px;
+    color:gray;
+}
+.gray-line{
+    border:1px solid #EFEEF7;
+    width:30%;
+    margin:auto;
+}
+.destinations{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    width:1200px;
+    margin:auto;
+    margin-top:40px;
+    row-gap: 30px;
+}
+.destinations>div{
+    width:300px;
+    display:flex;
+    justify-content: space-around;
+}
+.destinations>div:hover{
+    text-decoration: underline;
+}
+.destinations>div>img{
+    border-radius: 5px;
+}
+#flexible,#cancel{
+    background-color: #EAFBF7;
+    margin-top:80px;
+    padding:40px;
+    height:200px;
+    line-height: 30px;
+    text-align: center;
+}
+#flexible>h1{
+    line-height: 40px;
+}
+#par{
+    display: flex;
+    justify-content: space-around;
+    width:90%;
+    /* border:2px solid green; */
+    margin:auto;
+    margin-top: 40px;
+
+}
+.paris{
+    width:320px;
+    /* border:2px solid red; */
+}
+.monalisa{
+    background-image: url(https://dynamic-media.tacdn.com/media/photo-o/2f/4d/91/af/caption.jpg?w=800&h=600&s=1);
+    height:220px;
+    width:320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 1px gray; */
+    position:relative;
+    
+}
+#par>.paris>.monalisa:hover{
+    box-shadow: 1px 2px 5px gray;
+    border-radius: 5px;
+}
+#par>.paris>.inner-content>h5:hover{
+    text-decoration: underline;
+}
+.inner-content{
+    line-height: 25px;
+}
+.inner-content>p{
+    font-size: 15px;
+    color:gray;
+    display:inline;
+}
+.inner-content>.fa-star{
+    color:#008768;
+}
+.inner-content>p:last-child{
+    font-size: 12px;
+}
+.inner-content>.bc{
+    color:black;
+}
+.fa-heart{
+    position: absolute;
+    right:5px;
+    top:10px;
+}
+.monalisa>p{
+    position:absolute;
+    left:5px;
+    top:10px;
+    background-color: maroon;
+    color:white;
+    font-weight: bold;
+    padding:3px;
+    font-size: 15px;
+    border-radius: 6px;
+}
+.monalisa2{
+    background-image: url(https://dynamic-media.tacdn.com/media/photo-o/2e/a7/b9/38/caption.jpg?w=800&h=600&s=1);
+}
+.monalisa3{
+    background-image: url(https://dynamic-media.tacdn.com/media/photo-o/2e/a7/aa/88/caption.jpg?w=800&h=600&s=1);
+}
+.monalisa4{
+    background-image: url(https://dynamic-media.tacdn.com/media/photo-o/2e/cc/70/1e/caption.jpg?w=800&h=600&s=1);
+}
+.main-cont3>.cont-3{
+    width:220px;
+    border-radius: 10px;
+    /* border:2px solid red; */
+    position:relative;
+}
+.cont-3>.image{
+    /* background-image: url(https://cache.vtrcdn.com/orion/images/homepage/top-destinations/TopDestinations-Rome-450px.webp); */
+    height:120px;
+    width:220px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    
+}
+.cont-3>.image1{
+    background-image: url(https://cache.vtrcdn.com/orion/images/homepage/top-destinations/TopDestinations-Rome-450px.webp);
+}
+.cont-3>.image2{
+    background-image: url(https://cache.vtrcdn.com/orion/images/homepage/top-destinations/TopDestinations-LasVegas-450px.webp);
+}
+.cont-3>.image3{
+    background-image: url(https://cache.vtrcdn.com/orion/images/homepage/top-destinations/TopDestinations-Rome-450px.webp);
+}
+.cont-3>.image4{
+    background-image: url(https://cache.vtrcdn.com/orion/images/homepage/top-destinations/TopDestinations-Paris-450px.webp);
+}
+.cont-3>.image5{
+    background-image: url(https://cache.vtrcdn.com/orion/images/homepage/top-destinations/TopDestinations-NewYorkCity-450px.webp);
+}
+.cont-3>.image6{
+    background-image: url(https://cache.vtrcdn.com/orion/images/homepage/top-destinations/TopDestinations-WashingtonDC-450px.webp);
+}
+.cont-3>.image7{
+    background-image: url(https://cache.vtrcdn.com/orion/images/homepage/top-destinations/TopDestinations-Cancun-450px.webp);
+}
+.cont-3>.image8{
+    background-image: url(https://cache.vtrcdn.com/orion/images/homepage/top-destinations/TopDestinations-Florence-450px.webp);
+}
+.cont-3>.image9{
+    background-image: url(https://cache.vtrcdn.com/orion/images/homepage/top-destinations/TopDestinations-Barcelona-450px.webp);
+}
+.cont-3>.image10{
+    background-image: url(https://cache.vtrcdn.com/orion/images/homepage/top-destinations/TopDestinations-Oahu-450px.webp);
+}
+.cont-3 .place{
+    position:absolute;
+    top:50%;
+    left:30%;
+    font-weight: bold;
+    color:white;
+    z-index:5;
+}
+.cont-3>.bg-c{
+    background-color: black;
+    border-radius: 10px;
+    z-index:4;
+    opacity:0.3;
+    height:120px;
+    width:220px;
+    position:absolute;
+    transition: opacity 0.3s;
+}
+.main-cont3>.cont-3>.bg-c:hover{
+    opacity:0;
+}
+.main-cont3{
+    display:grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(5,1fr);
+    row-gap: 20px;
+    width: 90%;
+    justify-items: center;
+    margin:auto;
+}
+#cancel{
+    height:100px;
+}
+.main-image-cont{
+    display:flex;
+    justify-content: space-around;
+    margin:auto;
+    width:90%;
+}
+.image-container{
+    border-radius: 6px;
+    box-shadow: 0px 0px 5px gray;
+    width:200px;
+    border:none;
+    transition: box-shadow 0.4s;
+}
+.img1{
+    background-image: url(https://cache.vtrcdn.com/orion/images/homepage/warm-destinations/WarmDestinations-Miami-396x520.webp);
+    height: 300px;
+    width:200px;
+    border-radius: 6px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#pla{
+    padding:20px;
+}
+#pla>h2{
+    font-size: 20px;
+}
+.image-container:hover{
+    box-shadow: 1px 2px 6px gray;
+}
+.helpful{
+    background-color: #EAFBF7;
+    padding:40px;
+    text-align: center;
+    margin-top:40px;
+}
+.lines{
+    display:inline-block;
+    border:1px solid gray;
+    height:15px;
+    width:0px;
+}
+#cities,.cities{
+    margin:auto;
+    width:90%;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.popular{
+    margin-left: 55px;
+    padding:20px;
+}
+footer{
+    background-color: black;
+    height:500px;
+    color:white;
+}
+footer>#footer{
+    width:240px;
+    margin:auto;
+    padding:40px;
+    display:flex;
+    justify-content: space-around;
+}
+footer>#footer>img{
+    height:24px;
+    width:25px;
+    border-radius: 50%;
+}
+.starss{
+    display:flex;
+    justify-content: space-around;
+    width:500px;
+    margin:auto;
+}
+.starss>div>i,.main-div>.div1>i,.main-div>.div2>i,.main-div>.div3>i{
+    background-color: #008768;
+    color:white;
+}
+.starss>.s{
+    color:#008768;
+    background-color: black;
+}
+footer>.ul{
+    display:flex;
+    justify-content: space-around;
+    margin:50px;
+}
+footer>.ul>ul{
+    list-style-type: none;
+}
+footer>.ul>ul>li{
+    padding:10px;
+}
+footer>hr{
+    width:80%;
+    margin:auto;
+    color:rgba(128, 128, 128, 0.409);
+}
+.last-section>#last-images>img{
+    border:1px solid gainsboro;
+    border-radius: 10px;
+}
+.last-section>ul{
+    list-style-type: none;
+    display: flex;
+    width:800px;
+    justify-content: space-around;
+}
+.last-section{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:50px;
+}
+.main-div>.div1>.s{
+    background-color: #fff;
+    color:#008768;
+}
+.div1>h3{
+    display: inline-block;
+    padding:10px 0px;
+    font-size: 25px;
+}
+.via{
+    font-size: 12px;
+}
+.main-div{
+    display: flex;
+    justify-content: space-around;
+}
+.main-div>div{
+    width:300px;
+}
+.main-div p{
+    font-size: 13px;
+}
+.img4{
+    background-image: url(https://cache.vtrcdn.com/orion/images/homepage/warm-destinations/WarmDestinations-Rio-396x520.webp);
+}
+.img2{
+    background-image: url(https://cache.vtrcdn.com/orion/images/homepage/warm-destinations/WarmDestinations-Bali-396x520.webp);
+}
+
+.img3{
+    background-image: url(https://cache.vtrcdn.com/orion/images/homepage/warm-destinations/WarmDestinations-Cancun-396x520.webp);
+}
+.img5{
+    background-image: url(https://cache.vtrcdn.com/orion/images/homepage/warm-destinations/WarmDestinations-SiemReap-396x520.webp);
+}
+.img6{
+    background-image: url(https://cache.vtrcdn.com/orion/images/homepage/warm-destinations/WarmDestinations-PuntaCana-396x520.webp);
+}
